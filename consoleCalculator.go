@@ -20,5 +20,11 @@ func main() {
 	if sign == "+" {
 		meaning := digital_1 + digital_2
 		fmt.Println("= ", meaning)
+	} else if sign == "-" {
+		meaning := digital_1 - digital_2
+		fmt.Println("=", meaning)
+	} else if sign == "/" {
+		meaning := digital_1 / digital_2
+		fmt.Println("=", meaning)
 	}
 }
